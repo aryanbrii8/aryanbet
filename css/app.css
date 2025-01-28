@@ -384,6 +384,9 @@ body {
   .container {
     max-width: 100%;
   }
+  .link {
+    font-size: 1rem;
+  }
 }
 @media only screen and (max-width: 410px) {
   .box {
@@ -396,6 +399,12 @@ body {
     width: 4.625rem;
     height: 4.625rem;
   }
+  .link {
+    font-size: 0.9rem;
+  }
+  .nav-header {
+    gap: 1.5rem;
+  }
 }
 @media only screen and (max-width: 380px) {
   .box-select {
@@ -405,9 +414,7 @@ body {
   .nav-header {
     gap: 1rem;
   }
-  .link {
-    font-size: 1rem;
-  }
+
   .title-box {
     font-size: 1.2rem;
   }
@@ -427,6 +434,9 @@ body {
     width: 4rem;
     height: 4rem;
   }
+  .nav-header {
+    gap: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -434,6 +444,9 @@ body {
     font-size: 1.6rem;
   }
   .text-select {
+    font-size: 0.8rem;
+  }
+  .link {
     font-size: 0.8rem;
   }
 }
@@ -454,7 +467,14 @@ body {
     height: 3.5rem;
   }
 }
-
+@media only screen and (max-width: 290px) {
+  .nav-header {
+    gap: 0.5rem;
+  }
+  .link {
+    font-size: 0.7rem;
+  }
+}
 @media only screen and (max-width: 280px) {
   .img {
     width: 5rem;
@@ -469,9 +489,7 @@ body {
   .section-text {
     font-size: 1.3rem;
   }
-  .link {
-    font-size: 0.8rem;
-  }
+
   .text-stay {
     font-size: 1.4rem;
   }
